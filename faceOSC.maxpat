@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 1,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -38,27 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
+					"id" : "obj-41",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 254.5, 1.5, 58.0, 22.0 ],
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 568.0, 365.5, 68.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.pack 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 176.75, 1.5, 61.0, 22.0 ],
-					"style" : "",
-					"text" : "jit.kinect2"
+					"text" : "VideoInput"
 				}
 
 			}
@@ -1568,15 +1555,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1777,6 +1755,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-141", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1835,15 +1822,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-141", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -2056,42 +2034,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-75", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-75", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-75", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-75", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2125,15 +2067,29 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "VideoInput.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/3rd_Party/JitterApplets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "slideback.pct",
+				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/3rd_Party/JitterApplets/SimpleMix.lib",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Knob.pct",
+				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/3rd_Party/JitterApplets/SimpleMix.lib",
+				"type" : "PICT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cv.jit.faces.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "cv.jit.resize.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.kinect2.mxo",
 				"type" : "iLaX"
 			}
  ],
