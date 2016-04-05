@@ -3,6 +3,7 @@
 Provides OSC messages to Wekinator, a Machine Learning (ML) tool written by Rebecca Fiebrink and used in her Kadenze course.
 
 Dependencies:
+- Max.
 - Webcam.
 - CV, please use MAX's package manager in the file menu to find and install CV.
 - Wekinator or any OSC agnostic machine learning model.
