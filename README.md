@@ -8,7 +8,7 @@ Dependencies:
 - Wekinator or any OSC agnostic machine learning model.
 
 Usage:
-In Wekinator, set the number of input variables to 300 (and enable the output to send class probabilities by OSC if you use my OSCvideos patch)
+In Wekinator, set the number of inputs (#inputs) to 300 (and enable the output to send class probabilities by OSC if you use my OSCvideos patch)
 
 Running the patch:
 - start the video cam using the 'open' button.
