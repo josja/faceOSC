@@ -1,9 +1,9 @@
 # faceOSC
 
-Provides OSC messages to Wekinator, a Machine Learning (ML) tool written by Rebecca Fiebrink and used in her Kadenze course.
+Provides a 'face frame' as OSC message to Wekinator, a Machine Learning (ML) tool written by Rebecca Fiebrink and used in her Kadenze course. The frame consists of 300 floating points (gray pixels) between 0 and 1. When a face is detected the patch will automagically zoom in to the area of interest and take a snapshot of 300 pixels to send by OSC.
 
 Dependencies:
-- Max.
+- Max (doh).
 - Webcam.
 - CV, please use MAX's package manager in the file menu to find and install CV.
 - Wekinator or any OSC agnostic machine learning model.
