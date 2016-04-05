@@ -38,19 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 568.0, 365.5, 68.0, 22.0 ],
-					"style" : "",
-					"text" : "VideoInput"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2064,24 +2051,6 @@
 				"name" : "cv.jit.faces.draw.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/cv.jit/patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "VideoInput.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/3rd_Party/JitterApplets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "slideback.pct",
-				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/3rd_Party/JitterApplets/SimpleMix.lib",
-				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Knob.pct",
-				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/3rd_Party/JitterApplets/SimpleMix.lib",
-				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
