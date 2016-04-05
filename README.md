@@ -13,4 +13,7 @@ In Wekinator, set the number of input messages to 300.
 Running the patch:
 - start the video cam using the 'open' button.
 - start face detection and OSC data output using the [x] toggle.
+- start training the first class of a 3 classes classifier model (I selected class 1 and recorded only happy faces, class 2 using angry faces and class 3 using neutral faces). 
+- After you recorded at least 1000 records (frames) you can keep the faceOSC patch running and set your model to [running] instead of [training] and watch the results using the OSCvideos patch (load some appropiate videos first in the OSCvideos patch, top = happy, middle = neutral and lowest = angry IIRC)
+
 
