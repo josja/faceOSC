@@ -8,7 +8,7 @@ Dependencies:
 - CV, please use MAX's package manager in the file menu to find and install CV.
 - Wekinator or any OSC agnostic machine learning model.
 
-Usage:
+Wekinator configuration:
 In Wekinator, set the number of inputs (#inputs) to 300, select a SVM Linear classifier with 3 classes (1 for each expression) and enable its output to send class probabilities by OSC (if you use my OSCvideos output patch).
 
 Running the patch:
