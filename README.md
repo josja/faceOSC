@@ -2,6 +2,8 @@
 
 Provides a 'face frame' as OSC message to Wekinator, a Machine Learning (ML) tool written by Rebecca Fiebrink and used in her Kadenze course. The frame consists of 300 floating points (gray pixels) between 0 and 1. When a face is detected the patch will automagically zoom in to the area of interest and take a snapshot of 300 pixels and send it through OSC to Wekinator.
 
+You can use this output for training Machine Learning models to distinguish facial expressions.
+
 Dependencies:
 - Max (doh).
 - Webcam.
